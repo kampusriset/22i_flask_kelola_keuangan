@@ -1,1 +1,0 @@
-Print('Apik Kalimat')

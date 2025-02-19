@@ -1,6 +1,7 @@
 # Nama Aplikasi
 Pencatatan Keuangan
 # Kegunaan Aplikasi
+mencatat keuangan sehari hari.
 # Flowchart
 Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
 
@@ -14,3 +15,4 @@ Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
 - **Khoirunnisa** - []
 
 # Link Video Dokumentasi
+Masih Proses Pembuatan

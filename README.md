@@ -7,7 +7,7 @@ Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
 
 
 # Perkenalan Team
-- **Nurcahyo Saputro** - [login, log out, register, change password]
+- **Nurcahyo Saputro** - [login, log out, register, change password, file model]
 - **Dicky Kurniawan** - [halaman utama  dan Controller Crud]
 - **Muhammad 'izzul Islam** - [CSS, Pembantu Kekurangan]
 - **Khoirunnisa** - []

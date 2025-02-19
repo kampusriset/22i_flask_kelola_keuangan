@@ -7,4 +7,8 @@ Pencatatan Keuangan
 
 # Perkenalan Team
 - **Nurcahyo Saputro** - [login, log out, register, change password, file model]
+- - **Dicky Kurniawan** - [login, log out, register, change password, file model]
+- - **Muhammad 'izzul Islam** - [login, log out, register, change password, file model]
+- - **Khoirunnisa** - [login, log out, register, change password, file model]
+
 # Link Video Dokumentasi

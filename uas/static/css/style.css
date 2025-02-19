@@ -1,0 +1,15 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+}

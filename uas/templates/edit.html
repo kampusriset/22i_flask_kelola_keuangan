@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Edit Transaksi</h1>
+
+<form action="{{ url_for('main_controler.edit_transaction', id=transaction[0]) }}" method="POST">
+    <div class="mb-3">
+        <label for="amount" class="form-label">Jumlah (Rp)</label>
+        <input type="number" class="form-control" id="amount" name="amount" value="{{ transaction[2] }}" required>
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Deskripsi</label>
+        <input type="text" class="form-control" id="description" name="description" value="{{ transaction[3] }}" required>
+    </div>
+    <div class="mb-3">
+        <label for="type" class="form-label">Tipe Transaksi</label>
+        <select id="type" name="type" class="form-control">
+            <option value="Pemasukan" {% if transaction[4] == 'Pemasukan' %}selected{% endif %}>Pemasukan</option>
+            <option value="Pengeluaran" {% if transaction[4] == 'Pengeluaran' %}selected{% endif %}>Pengeluaran</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Simpan</button>
+</form>
+
+{% endblock %}

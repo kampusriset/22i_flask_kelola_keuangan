@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+    />
+    <style>
+      .jumbotron {
+        background: linear-gradient(to right, #007bff, #00aaff);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="jumbotron text-center">
+        <h1>Welcome to Your Dashboard</h1>
+        <p class="lead">Manage your books and account settings easily.</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="btn-group me-2">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="transactionMenu"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Transaction
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="transactionMenu">
+            <li><a class="dropdown-item" href="/books">Manage Books</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="accountMenu"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Account
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="accountMenu">
+            <li>
+              <a class="dropdown-item" href="/change-password"
+                >Change Password</a
+              >
+            </li>
+            <li><a class="dropdown-item" href="/logout">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+  </body>
+</html>

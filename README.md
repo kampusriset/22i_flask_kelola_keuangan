@@ -12,7 +12,7 @@ Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
 - **Nurcahyo Saputro** - [login, log out, register, change password, file model]
 - **Dicky Kurniawan** - [halaman utama  dan Controller Crud]
 - **Muhammad 'izzul Islam** - [CSS, Pembantu Kekurangan]
-- **Khoirunnisa** - []
+- **Khoirunnisa** - [edit video, dubbing suara]
 
 # Link Video Dokumentasi
 Masih Proses Pembuatan

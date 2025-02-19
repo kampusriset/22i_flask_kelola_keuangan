@@ -8,7 +8,7 @@ Pencatatan Keuangan
 # Perkenalan Team
 - **Nurcahyo Saputro** - [login, log out, register, change password, file model]
 - **Dicky Kurniawan** - [halaman utama  dan Controller Crud]
-- - **Muhammad 'izzul Islam** - [login, log out, register, change password, file model]
-- - **Khoirunnisa** - [login, log out, register, change password, file model]
+- **Muhammad 'izzul Islam** - [CSS, Pembantu Kekurangan]
+- - **Khoirunnisa** - []
 
 # Link Video Dokumentasi

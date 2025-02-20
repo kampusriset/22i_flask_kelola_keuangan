@@ -15,4 +15,4 @@ Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
 - **Khoirunnisa** - [edit video, dubbing suara]
 
 # Link Video Dokumentasi
-Masih Proses Pembuatan
+[https://youtu.be/BiBlgiWxiUA?si=gnj2aNuatjeDT3eL]
